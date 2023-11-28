@@ -3,7 +3,7 @@ guid: 9af0c401df0abd4479dce69066b5be43
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -62,9 +63,58 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -82,50 +132,86 @@ TextureImporter:
     physicsShape: []
     bones:
     - name: bone_1
+      guid: 
       position: {x: 235.36426, y: 231.72588, z: 0}
       rotation: {x: 0, y: 0, z: 0.7307612, w: 0.6826332}
       length: 30.082455
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: bone_2
+      guid: 
       position: {x: 224.45052, y: 452.04694, z: 0}
       rotation: {x: 0, y: 0, z: -0.683637, w: 0.7298223}
       length: 73.14163
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: bone_3
+      guid: 
       position: {x: 384.0639, y: 398.16037, z: 0}
       rotation: {x: 0, y: 0, z: -0.90096825, w: 0.43388516}
       length: 68.92335
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: bone_4
+      guid: 
       position: {x: 453.63898, y: 240.59329, z: 0}
       rotation: {x: 0, y: 0, z: -0.99926335, w: 0.03837664}
       length: 71.14884
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: bone_5
+      guid: 
       position: {x: 386.79236, y: 84.39046, z: 0}
       rotation: {x: 0, y: 0, z: 0.9540155, w: 0.29975736}
       length: 90.63833
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: bone_6
+      guid: 
       position: {x: 243.54956, y: 14.815389, z: 0}
       rotation: {x: 0, y: 0, z: 0.7258147, w: 0.6878903}
       length: 101.78056
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: bone_7
+      guid: 
       position: {x: 66.88345, y: 89.84733, z: 0}
       rotation: {x: 0, y: 0, z: 0.3338683, w: 0.94261974}
       length: 87.78022
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: bone_8
+      guid: 
       position: {x: 26.63905, y: 248.09648, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       length: 80.4888
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: bone_9
+      guid: 
       position: {x: 83.25406, y: 376.3329, z: 0}
       rotation: {x: 0, y: 0, z: -0.3540275, w: 0.935235}
       length: 78.28513
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices:
@@ -462,6 +548,7 @@ TextureImporter:
       boneIndex[2]: 0
       boneIndex[3]: 0
     secondaryTextures: []
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
