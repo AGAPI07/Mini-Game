@@ -1,18 +1,36 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
+using Photon.Realtime;
 
-public class PhotonConnect : MonoBehaviour
+public class PhotonConnect : MonoBehaviourPunCallbacks
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] GameObject heart;
+    private void Start()
+    {
+    
+    }
+
+    private void ConnectToPhoton()
+    {
+        Debug.Log("Connecting to Photon...");
+
+        // Connect to the Photon Cloud or your own Photon Server
+        PhotonNetwork.ConnectUsingSettings();
+    }
+    public override void OnDisconnected(DisconnectCause cause)
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+
+
+    public override void OnConnectedToMaster()
     {
-        
+        Debug.Log("Connected to Photon Master Server");
+        // heart.SetActive(true);
     }
+
+
+
+
 }
